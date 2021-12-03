@@ -1,0 +1,21 @@
+.navbar{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 8px 0px;
+	position: sticky;
+	top:0;
+	background-color: yellow;
+}
+
+.navbar img	{
+	width: 75px;
+}
+
+.nav-menu{
+	list-style: none;
+}
+.nav-item {
+	display: inline;
+	margin: 0 8px;
+}

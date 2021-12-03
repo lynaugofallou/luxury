@@ -1,0 +1,28 @@
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+	}
+
+.card{
+	border-radius: 7px;
+	padding: 16px;
+	text-align: center;
+	width: 250px;
+	box-shadow: white 0px 0px 4px 1px;
+	justfy-self: center;	
+}
+
+ .card img {
+ 	width: 200px;
+ }
+
+ @media (min-width: 200px) {
+ 	.cards{
+ 		grid-template-columns: 1fr 1fr ;
+ 	}
+ }
+ @media (min-width: 200px) {
+ 	 .cards{
+ 	 	  grid-template-columns: 1fr 1fr 1fr;
+ 	 }
+ }
